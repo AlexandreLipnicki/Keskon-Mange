@@ -50,7 +50,7 @@ Avec Keskon'Mange?, tu peux :
 
 ```bash
 # 1. Clone le projet
-git clone https://github.com/ton-utilisateur/keskonmange.git
+git clone https://github.com/AlexandreLipnicki/Keskon-Mange
 
 # 2. Va dans le dossier
 cd keskonmange

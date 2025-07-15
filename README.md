@@ -38,11 +38,11 @@ Avec Keskon'Mange?, tu peux :
 
 | Technologie       | Description                       |
 |------------------|-----------------------------------|
-| 🧪 TypeScript     | Typage sûr et robuste              |
+| 🧪 TypeScript    | Typage sûr et robuste              |
 | ⚛️ React         | Interface réactive & modulaire     |
-| ⚡ Vite.js        | Build ultra-rapide & moderne       |
+| ⚡ Vite.js       | Build ultra-rapide & moderne       |
 | 📦 npm           | Gestion des dépendances            |
-| 🧰 (à compléter)  | Par exemple: Zustand, Tailwind... |
+| 🧰 (à compléter) |                                    |
 
 ---
 

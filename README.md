@@ -36,13 +36,13 @@ Avec Keskon'Mange?, tu peux :
 
 ## ⚙️ Tech Stack
 
-| Technologie       | Description                       |
-|------------------|-----------------------------------|
-| 🧪 TypeScript    | Typage sûr et robuste              |
-| ⚛️ React         | Interface réactive & modulaire     |
-| ⚡ Vite.js       | Build ultra-rapide & moderne       |
-| 📦 npm           | Gestion des dépendances            |
-| 🧰 (à compléter) |                                    |
+| Technologie       | 
+|------------------|
+| 🧪 TypeScript    | 
+| ⚛️ React         | 
+| ⚡ Vite.js       |
+| 📦 npm           |
+| 🧰 (à compléter) |
 
 ---
 

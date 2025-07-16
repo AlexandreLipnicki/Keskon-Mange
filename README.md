@@ -1,69 +1,62 @@
-# React + TypeScript + Vite
+# 🍲 Keskon'Mange?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application web en **Vite.js + React + TypeScript** pour **organiser tes repas de la semaine**, créer automatiquement une **liste de courses** et visualiser tes **valeurs nutritionnelles** au quotidien ! 🛒📅💪
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Pourquoi Keskon'Mange ?
 
-## Expanding the ESLint configuration
+Avec Keskon'Mange?, tu peux :
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✅ Enregistrer tes recettes avec les quantités par personne  
+✅ Planifier ton **menu de la semaine**  
+✅ Générer une **liste de courses exportable**  
+✅ Voir un **récap nutritionnel** jour par jour 🍎🥦🍗
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## ✨ Fonctionnalités principales
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 📋 **Création de recettes**  
+  → Ajoute tes plats, les ingrédients, et les quantités/personne.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 📆 **Planification du menu**  
+  → Glisse tes recettes dans les jours de la semaine.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- 🛍️ **Liste de courses automatique**  
+  → Calculée à partir de ton menu (adaptée au nombre de personnes).
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🧮 **Suivi nutritionnel**  
+  → Affiche les apports journaliers (protéines, lipides, glucides, etc.)
+
+- 📤 **Export PDF / impression**  
+  → Liste de courses et menu hebdo facilement partageables !
+
+---
+
+## ⚙️ Tech Stack
+
+| Technologie       | 
+|------------------|
+| 🧪 TypeScript    | 
+| ⚛️ React         | 
+| ⚡ Vite.js       |
+| 📦 npm           |
+| 🧰 (à compléter) |
+
+---
+
+## 🛠️ Installation locale
+
+```bash
+# 1. Clone le projet
+git clone https://github.com/AlexandreLipnicki/Keskon-Mange
+
+# 2. Va dans le dossier
+cd keskonmange
+
+# 3. Installe les dépendances
+npm install
+
+# 4. Lance le projet en dev
+npm run dev
